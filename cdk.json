@@ -1,0 +1,23 @@
+{
+    "app": "python app.py",
+    "requireApproval": "never",
+    "fail": true,
+    "versionReporting": false,
+    "watch": {
+        "include": [
+            "**"
+        ],
+        "exclude": [
+            "README.md",
+            "cdk*.json",
+            "requirements*.txt",
+            "source.bat",
+            "**/__init__.py",
+            "python/__pycache__",
+            "tests"
+        ]
+    },
+    "context": {
+        "project_name": "ApigwAuthSample"
+    }
+}
